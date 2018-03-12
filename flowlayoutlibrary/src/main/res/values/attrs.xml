@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontal_space" format="dimension"/>
+        <attr name="vertical_space" format="dimension"/>
+        <attr name="adjustMod" format="integer">
+            <enum name="none" value="0"/>
+            <enum name="adjust_space" value="1"/>
+            <enum name="adjust_item" value="2"/>
+        </attr>
+        <attr name="gravity" format="integer">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
