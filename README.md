@@ -11,10 +11,11 @@
         app:adjustMod="none"
         app:gravity="left">
     </com.example.ming.flowlayoutlibrary.FlowLayout>
+
 	horizontal_space : 表示子view之间横向间距
 	vertical_space ：表示子view之间纵向间距
 	adjustMod 表示子view排版模式，gravity 表示对齐方式
-	
+
 	adjustMod = “none"  gravity = "left"
 ![截图](https://github.com/ming152/FlowLayoutDemo/blob/master/screenshot/left.png)
 
